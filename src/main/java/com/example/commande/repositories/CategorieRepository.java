@@ -1,0 +1,14 @@
+package com.example.commande.repositories;
+
+import com.example.commande.entities.Article;
+import com.example.commande.entities.Categorie;
+import lombok.AllArgsConstructor;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface CategorieRepository extends JpaRepository<Categorie,Integer> {
+
+}
